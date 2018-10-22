@@ -54,15 +54,91 @@
 
 .app-info-section {
   color: white;
-  background: #c9aa5d;
   font-size: 4rem;
-  padding: 10rem 0;
+  padding: 1rem 0;
+}
+
+.app-info-section__pre-head {
+    font-size: 1rem;
+}
+
+.app-info-section__main {
+    font-size: 5rem;
+    margin-top: 3rem;
+}
+
+.app-info-section__tagline {
+    font-size: 1.5rem;
+}
+
+.app-info-section__post-head {
+    font-size: 2rem;
+}
+
+.app-main-bg {
+    background-image: url(https://wallpapertag.com/wallpaper/full/0/f/1/385543-sunrise-wallpaper-1920x1080-for-full-hd.jpg);
+    background-position: 56% 44%;
+}
+
+.app-info__who-we-are-header {
+    display: flex;
+    justify-content: center;
+}
+
+.app-info__about {
+    padding: 1rem;
+}
+
+.app-info__about .app-info__who-we-are-span:before {
+  border-top: 2px solid #000;
+}
+
+.app-info__about .app-info__who-we-are-span:after {
+  border-top: 2px solid #000;
 }
 
 .app-info__who-we-are {
   padding: 1rem;
-  background-color: #4c4845;
   color: #FFF;
+}
+
+.image-sec__vastu {
+    padding: 0 2rem;
+    /* align-content: center; */
+    align-self: center;
+    height: 6rem;
+    width: 10rem;
+    background-image: url(http://www.vaastuinternational.com/vastu_shastra/vastu_purush.jpg);
+    border-radius: 50%;
+}
+
+.image-sec__planets {
+    padding: 0 2rem;
+    /* align-content: center; */
+    align-self: center;
+    height: 6rem;
+    width: 10rem;
+    background-image: url(https://s22380.pcdn.co/wp-content/uploads/Solar-system-NASA_S.jpg);
+    border-radius: 50%;
+}
+
+.text-sec {
+    padding: 0 2rem;
+}
+
+.app-left-right-section {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 10rem;
+    font-size: 11px;
+    text-align: start;
+}
+
+.app-info__about-vastu {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    text-align: start;
 }
 
 .app-info__who-we-are-span {
